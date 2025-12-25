@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reader.Infrastructures\Reader.Infrastructures.csproj" />
+    <ProjectReference Include="..\Trace\Reader.Trace\Reader.Trace.csproj" />
+  </ItemGroup>
+
+</Project>

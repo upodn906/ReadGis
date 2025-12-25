@@ -1,0 +1,33 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "DatabaseEngine": "SQLITE",
+  "ConnectionStrings": {
+    "Sql": "Data Source=GisDb.db"
+  },
+  "Layers": [],
+  "RandomizeBatches": false,
+  "Threads": 8,
+  "BatchSize": 1000,
+  "SyncSpName": "",
+  "Provider": "EDSAB",
+  "Tracer": "",
+  "Mode": "READ",
+  "AllowedHosts": "*",
+  "GisServer": {
+    "Address": "http://10.52.9.231:6080/arcgis/rest/services/SamaWFSService/MapServer",
+    "Username": "",
+    "Password": "",
+    "AuthenticationAddress": "",
+    "Token": "",
+    "TraceUrl": ""
+  },
+  "Yazd": {
+    "FeedersUrl": "https://webgis.yed.co.ir/raya/gis/rest/androidservices/GetFeedersData"
+  }
+}

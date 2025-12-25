@@ -1,0 +1,34 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "DatabaseEngine": "SQLServer",
+  "ConnectionStrings": {
+    "Sql": "Persist Security Info=True;User ID=sa;Initial Catalog=PmGilanProvince;Data Source=10.196.129.118;TrustServerCertificate=True;Password=11236++f6"
+  },
+  "Threads": 6,
+  "BatchSize": 1000,
+  "SyncSpName": "Gis.sp_GisSyncComplete",
+  "Provider": "EDSAB",
+  "Tracer": "NIMA",
+  "Mode": "Trace",
+  "AllowedHosts": "*",
+  "GisServer": {
+    "Address": "http://10.196.145.176:6080/arcgis/rest/services/SamaMAPService/MapServer",
+    "Username": "",
+    "Password": "",
+    "AuthenticationAddress": "",
+    "Token": "1"
+  },
+  "Nima": {
+    "Username": "gis",
+    "Password": "123",
+    "Url": "http://nima.gilanpdc.ir:8080/",
+    "Companies": "3104,3111,3112,3110,3105,3123,3122,3120,3101,3102,3121,3109,3113,3117,3118,3116,3106,3107,3103,3119,3115,3114,3108",
+    "FlowElements": "JunctionsAndEdgesAndPolygon"
+  }
+}

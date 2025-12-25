@@ -1,0 +1,23 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "ConnectionStrings": {
+    "Sql": "Data Source=.;Initial Catalog=Gis;User ID=sa;Password=11235$f5;Connection Timeout=600;TrustServerCertificate=True;"
+  },
+  "SyncSpName": "Gis.sp_GisSyncComplete",
+  "Provider": "WFSJSON",
+  "Tracer": "",
+  "Mode": "Read",
+  "AllowedHosts": "*",
+  "GisServer": {
+    "Address": "http://10.168.21.167:7071/geoserver",
+    "Username": "",
+    "Password": "",
+    "AuthenticationAddress": ""
+  }
+}

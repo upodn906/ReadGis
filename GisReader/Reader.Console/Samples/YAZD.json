@@ -1,0 +1,33 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "DatabaseEngine": "SQLITE",
+  "ConnectionStrings": {
+    "Sql": "Data Source=.;Initial Catalog=Gis;User ID=sa;Password=11236++f6;Connection Timeout=600;TrustServerCertificate=True;"
+  },
+  "Layers": [],
+  "RandomizeBatches": false,
+  "Threads": 4,
+  "BatchSize": 1000,
+  "SyncSpName": "SP_NAME",
+  "Provider": "EDSAB",
+  "Tracer": "",
+  "Mode": "READ",
+  "AllowedHosts": "*",
+  "GisServer": {
+    "Address": "http://10.52.9.231:6080/arcgis/rest/services/SamaWFSService/MapServer",
+    "Username": "",
+    "Password": "",
+    "AuthenticationAddress": "",
+    "Token": "TOKEN_HERE",
+    "TraceUrl": "https://gis.yed.co.ir:2943/yazd/rest/services/new_spatial/srv_net/MapServer/exts/GeometricNetworkUtility/GeometricNetworks/1/TraceNetwork/?f=json&traceSolverType=FindAccumulation&flowMethod=esriFMDownstream&flowElements=esriFEJunctionsAndEdges&outFields=objectid,globalid,st_length(shape)&maxTracedFeatures=2000000&tolerance=10&edgeFlags=[{0}]&junctionFlags=[]&edgeBarriers=[]&junctionBarriers=[]&traceIndeterminateFlow=false&shortestPathObjFn=esriSPObjFnMinMax&token={1}"
+  },
+  "Yazd": {
+    "FeedersUrl": "https://webgis.yed.co.ir/raya/gis/rest/androidservices/GetFeedersData"
+  }
+}
